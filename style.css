@@ -1,0 +1,131 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#F1F1F3;
+}
+.container{
+    position: absolute;
+    bottom:5%;
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+.container .footer-container{
+width:98%;
+background-color:white;
+padding:2%;
+box-sizing: border-box;
+border-radius:12px;
+box-shadow:0p 0px 5px 0.2px rgb(0,0,0,0.1);
+}
+.container .header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.container .header .left-container{
+    font-family:dm sans;
+    color:#3c1a80;
+}
+.container .header .subscribe-container{
+    height:40px;
+    background-color:#F1F1F3;
+    display: flex;
+    align-items: center;
+    border-radius:65px;
+    overflow: hidden;
+}
+.container .header .subscribe-container input{
+    width:200px;
+    height:40px;
+    border:none;
+    background-color:#F1F1F3;
+    outline:none;
+    padding-left:5%;
+    box-sizing: border-box;
+}
+.container .header .subscribe-container input::placeholder{
+    color:#3c1a80;
+    font-weight:bolder;
+    font-family:roboto;
+}
+.container .header .subscribe-container button{
+    background-color:#3c1a80;
+    height:40px;
+    border:none;
+    outline:none;
+    color:white;
+    font-family:roboto;
+    width:100px;
+    border-radius:65px;
+    font-weight:bolder;
+}
+/* footer contents about */
+.footer-contents{
+    display: flex;
+    justify-content:space-between;
+    margin-top:5%;
+}
+.footer-contents .about{
+    width:35%;
+}
+.footer-contents .about .logo{
+    font-family:dm sans;
+    font-weight:bolder;
+    color:#3c1a80;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:#3c1a80;
+    letter-spacing:1px;
+}
+.footer-contents .about .para{
+    color:#3c1a80;
+    font-family:dm sans;
+    margin-top:2%;
+}
+.footer-contents .links{
+    display: flex;
+    justify-content:space-between;
+    width:60%;
+    list-style:none;
+}
+.footer-contents .links span{
+    font-family:dm sans;
+    color:#3c1a80;
+    font-weight:bolder;
+}
+.footer-contents .links ul{
+    list-style:none;
+    margin-top:10%;
+}
+.footer-contents .links ul li{
+    margin-bottom:2%;
+}
+.footer-contents .links ul a{
+    text-decoration:none;
+    color:#3c1a80;
+    font-family:dm sans;
+    font-size:0.8rem;
+}
+.footer-container .bottom-contents{
+    display: flex;
+    justify-content:space-between;
+    margin-top:5%;
+}
+.footer-container .bottom-contents .copyright-text{
+    font-family:dm sans;
+    color:#3c1a80;
+    font-weight:bolder;
+}
+.footer-container .bottom-contents .icons{
+    display: flex;
+    justify-content:right;
+    list-style:none;
+    width:40%;
+}
+.footer-container .bottom-contents .icons li{
+    margin-left:3%;
+    font-size:1.5rem;
+}
